@@ -16,7 +16,7 @@ class Template:
             ('', ''),
             ('yes', 'Yes'),
             ('no', 'No'),
-            ], 'Complies ROHS?', required=True, states=STATES, depends=DEPENDS)
+            ], 'Complies ROHS?', states=STATES, depends=DEPENDS)
 
     @staticmethod
     def default_rohs():
