@@ -1,0 +1,19 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.template,rohs:"
+msgid "Complies ROHS?"
+msgstr "Compleix ROHS?"
+
+msgctxt "selection:product.template,rohs:"
+msgid ""
+msgstr ""
+
+msgctxt "selection:product.template,rohs:"
+msgid "No"
+msgstr "No"
+
+msgctxt "selection:product.template,rohs:"
+msgid "Yes"
+msgstr "Si"
