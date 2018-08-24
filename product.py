@@ -8,9 +8,8 @@ __all__ = ['Template']
 from trytond.modules.product.product import STATES, DEPENDS
 
 
-class Template:
+class Template(metaclass=PoolMeta):
     __name__ = 'product.template'
-    __metaclass__ = PoolMeta
 
     rohs = fields.Selection([
             ('', ''),
