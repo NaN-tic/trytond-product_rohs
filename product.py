@@ -5,17 +5,14 @@ from trytond.pool import PoolMeta
 
 __all__ = ['Template']
 
-from trytond.modules.product.product import STATES, DEPENDS
-
 
 class Template(metaclass=PoolMeta):
     __name__ = 'product.template'
-
     rohs = fields.Selection([
             ('', ''),
             ('yes', 'Yes'),
             ('no', 'No'),
-            ], 'Complies ROHS?', states=STATES, depends=DEPENDS)
+            ], 'Complies ROHS?')
 
     @staticmethod
     def default_rohs():
