@@ -15,3 +15,7 @@ class Template(metaclass=PoolMeta):
     @staticmethod
     def default_rohs():
         return ''
+
+
+class Product(metaclass=PoolMeta):
+    __name__ = 'product.product'
